@@ -7,6 +7,7 @@ body {
 }
 
  h1 {
+    font-family: 'Quicksand', sans-serif;
     color: white;
     text-align: center;
     margin: 15;
@@ -14,6 +15,7 @@ body {
  }
 
  h2 {
+    font-family: 'Quicksand', sans-serif;
     color: white;
     text-align: center;
     position: relative;
@@ -21,33 +23,52 @@ body {
     margin-bottom: 25px;
  }
  /* Section 1 */
- .section {
+.section {
      margin: 15px auto auto auto;
      background-color: white;
      height: 150px;
      width: 500px;
      border-radius: 25px;
      text-align: center;
-     display: flex;
-     justify-content: space-evenly;
      align-items: center;
-    }
+     font-size: 20px;
+     justify-content: space-around;
+     display: flex;
+}
+
+.radio1 {
+    display: flex;
+}
+
+.button1 {
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+
+.button2 {
+    flex-wrap: wrap;
+    margin-left: 85px;
+}
+
 
 /* recieve message button */
-.button1 {
+.button3 {
+    font-family: 'Quicksand', sans-serif;
     background-color: rgba(5,89,130,1);
     color: white;
     width: 200px;
     height: 40px;
-    margin: 60px auto auto auto;
+    margin: 55px auto auto auto;
     border-radius: 15px;
     text-align: center;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    font-size: 15px;
 }
 /* Section 2 */
 .get_message {
+    font-family: 'Quicksand', sans-serif;
     margin: 0 auto auto auto;
     background-color: white;
     height: 200px;
@@ -59,10 +80,37 @@ body {
     align-items: center;
 }
 
- svg {
+.trash {
+    font-family: 'Quicksand', sans-serif;
+     text-align: center;
+     align-items: center;
+     font-size: 20px;
+     justify-content: space-around;
+     display: flex;
+}
+
+.remove {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgba(5,89,130,1);
+    color: white;
+    border-radius: 25px;
+    width: 220px;
+    height: 50px;
+    margin-bottom: 155px;
+    font-size: 15px;
+}
+
+ .svg {
     height: 95px;
     width: 50px;
     margin: auto;
  }
+
+ #meditationImage {
+    display: block;
+}
+
+
+
 
 

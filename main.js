@@ -28,10 +28,12 @@ var mantras = ["Breathing in, I send myself love. Breathing out, I send love to 
 "Onward and upward.",
 "I am the sky, the rest is weather."];
 
-var affirmationButton = document.querySelector('#One');
-var mantraButton = document.querySelector('#Two');
-var messageButton = document.querySelector('.button1');
+var affirmationButton = document.querySelector('.button1');
+var mantraButton = document.querySelector('.button2');
+var messageButton = document.querySelector('.button3');
 var message = document.querySelector('#yourMessage');
+var messageImage = document.querySelector('#meditationImage');
+var removeButton = document.querySelector('.remove');
 
 affirmationButton.addEventListener('click', function(){
     mantraButton.checked = false;
@@ -41,7 +43,21 @@ mantraButton.addEventListener('click', function(){
     affirmationButton.checked = false;
 });
 
-messageButton.addEventListener('click', randomMessage); 
+messageButton.addEventListener('click', function(){
+    if (!affirmationButton.checked && !mantraButton.checked) {
+         alert('A button must be clicked before receiving your message!🙂');
+    } else {
+        randomMessage();
+        }
+    });
+
+removeButton.addEventListener('click', function(){
+    if(!message.innerText.trim()){
+        alert('There must be a message in order to delete it!🗑️');
+    } else {
+        removeMessage();
+    }
+});
 
 function randomMessage(){
     var randomAffirmation = getRandomAffirmation(affirmations);
@@ -55,8 +71,8 @@ function randomMessage(){
 }
 
 function getMessage(text) {
-    message.innerHTML = ``;
-    message.innerText = text;
+    message.innerHTML = '';
+    message.innerText += text;
 }
 
 function getRandomAffirmation(affirmations){
@@ -67,4 +83,13 @@ function getRandomAffirmation(affirmations){
 function getRandomMantra(mantras){
     var randomIndex = Math.floor(Math.random() * mantras.length);
     return mantras[randomIndex];
+}
+
+function removeMessage(){
+    messageImage.src = 'assets/meditate.svg'; 
+    messageImage.style.display = 'none'; 
+    message.innerHTML = `<div id="messageImage" style="display: block">
+    <img id="meditationImage" src="assets/meditate.svg" class="svg" alt="Image">
+ </div>`;
+    
 }
