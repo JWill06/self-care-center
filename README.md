@@ -7,16 +7,17 @@
 [//]: <> (What steps does a person have to take to get your app cloned down and running?)
 
 ### Preview of App:
-[//]: <> file:///Users/willi/Desktop/Screenshot%202024-02-16%20at%205.31.07%E2%80%AFPM.png
+[//]: file:///Users/willi/Desktop/Screenshot%202024-02-16%20at%205.31.07%E2%80%AFPM.png
 
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+[//]: In total this project took me roughly 10 hours of sit down time to complete it. This is the end of our third week in Mod1. 
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+[//]: Myself: Jordan Williamson. https://github.com/JWill06
 
 ### Learning Goals:
-[//]: <> (What were the learning goals of this project? What tech did you work with?)
+[//]: My learning goals were to create the desired end goal using HTML, CSS, and JavaScript. I also feel more comfortable using javaScript in this project. 
 
 ### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+[//]: Wins: Understanding JavaScript better and figuring out things based off of the paired project. Also not relying on other people to help me out as much. 
+Challenges: Figuring out how to get the image back in the message box after deleting the messages. 
