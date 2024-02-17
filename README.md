@@ -1,16 +1,18 @@
 # Self-Care Center 
 
 ### Abstract:
-[//]: This app allows the user to get a different type of message wether it be an Affirmation or Mantras. The app is solving a problem of helping mental health in people. The application solves that problem by sending a random message to the user (dependent on their message choice selection)
+This app allows the user to get a different type of message wether it be an Affirmation or Mantras. The app is solving a problem of helping mental health in people. The application solves that problem by sending a random message to the user (dependent on their message choice selection)
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+1. Fork and copy the repo. 
+2. Paste and clone the repo in your local machine(terminal).
+3. Input open index.html to see the live application. 
 
 ### Preview of App:
-[//]: file:///Users/willi/Desktop/Screenshot%202024-02-16%20at%205.31.07%E2%80%AFPM.png
+ https://postimg.cc/p977tR9T
 
 ### Context:
-[//]: In total this project took me roughly 10 hours of sit down time to complete it. This is the end of our third week in Mod1. 
+In total this project took me roughly 10 hours of sit down time to complete it. This is the end of our third week in Mod1. 
 
 ### Contributors:
 [//]: Myself: Jordan Williamson. https://github.com/JWill06
