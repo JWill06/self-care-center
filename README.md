@@ -15,11 +15,11 @@ This app allows the user to get a different type of message wether it be an Affi
 In total this project took me roughly 10 hours of sit down time to complete it. This is the end of our third week in Mod1. 
 
 ### Contributors:
-[//]: Myself: Jordan Williamson. https://github.com/JWill06
+Myself: Jordan Williamson. https://github.com/JWill06
 
 ### Learning Goals:
-[//]: My learning goals were to create the desired end goal using HTML, CSS, and JavaScript. I also feel more comfortable using javaScript in this project. 
+My learning goals were to create the desired end goal using HTML, CSS, and JavaScript. I also feel more comfortable using javaScript in this project. 
 
 ### Wins + Challenges:
-[//]: Wins: Understanding JavaScript better and figuring out things based off of the paired project. Also not relying on other people to help me out as much. 
+Wins: Understanding JavaScript better and figuring out things based off of the paired project. Also not relying on other people to help me out as much. 
 Challenges: Figuring out how to get the image back in the message box after deleting the messages. 
